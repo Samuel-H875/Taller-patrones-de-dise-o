@@ -61,6 +61,3 @@ En la versión inicial, la clase `Notificacion` debe conocer todas las combinaci
 
 En la versión inicial, las clases `Estudiante` y `Curso` deciden qué operación ejecutar con condiciones. En la refactorizada, los elementos implementan `aceptar(visitor)` y las operaciones se implementan en visitantes concretos como `InformeVisitor` y `EstadisticasVisitor`.
 
-## Nota para la sustentación
-
-La versión inicial representa deliberadamente el defecto de diseño que se busca mostrar. La refactorizada mejora la separación de responsabilidades, pero no significa que el patrón deba usarse en todos los proyectos.
